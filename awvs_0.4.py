@@ -274,13 +274,6 @@ if __name__ == '__main__':
 
     ''')
 
-    try:
-       a = socket.gethostbyname('awvs101.idcmb.cn')
-    except:
-       print('缓存失败,请联系开发处理. 5 秒后退出!')
-       time.sleep(6)
-       sys.exit()
-
     flag = True
     try:
         while flag:
